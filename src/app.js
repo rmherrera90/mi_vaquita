@@ -15,5 +15,3 @@ app.use("/friends", FriendRouter().registerRoutes());
 app.listen(PORT, () => {
   console.log(`Express server running on port ${PORT} 🚀`);
 });
-
-module.exports = app;

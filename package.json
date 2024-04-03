@@ -2,7 +2,7 @@
   "name": "mi_vaquita",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.js",
   "type": "module",
   "scripts": {
     "start": "node src/main.js",
