@@ -4,7 +4,10 @@ import { GroupRouter } from "./router/group.router.js";
 import { FriendRouter } from "./router/friend.router.js";
 
 const PORT = process.env.PORT || 3001;
-const app = express();
+var cors = require('cors')
+var app = express()
+
+app.use(cors());
 
 console.log(0, "root");
 
