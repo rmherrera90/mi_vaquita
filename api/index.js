@@ -1,10 +1,10 @@
 import express from "express";
+import cors from "cors"
 import { UserRouter } from "./router/user.router.js";
 import { GroupRouter } from "./router/group.router.js";
 import { FriendRouter } from "./router/friend.router.js";
 
 const PORT = process.env.PORT || 3001;
-var cors = require('cors')
 var app = express()
 
 app.use(cors());
